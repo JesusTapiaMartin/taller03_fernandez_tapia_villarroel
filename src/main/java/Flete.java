@@ -29,4 +29,6 @@ public class Flete {
     public void setDescripcionFlete(String descripcionFlete) {
         this.descripcionFlete = descripcionFlete;
     }
+
+
 }
