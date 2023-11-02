@@ -19,3 +19,7 @@
 ### Los commit creados en el readme fueron realizados por Yoandri Villarroel
 
 ### Creamos una rama llamada Devs, donde los integrantes trabajamos juntos e ir en orden en hacer los commits para lograr trabajar el codigo juntos y no perder mucho tiempo en mover codigo a otras ramas.
+
+### Las partes de codigo fueron creados por Jesus Tapia y 2 de las clases (flete y pack) fueron modificados por Yoandri Villarroel.
+
+### Hay que indicar que por problemas de utilizar los computadores de la universidad, los commit estan hechos desde otra cuenta, sin embargo, al final los commit que realizo "GatoMiau" son de Yoandri Villarroel.
