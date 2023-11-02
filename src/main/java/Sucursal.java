@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Sucursal {
     // ===== ATRIBUTOS =====
@@ -7,14 +8,30 @@ public class Sucursal {
 
 
     // ===== CONSTRUCTORES =====
-    public Sucursal(String codigoSucursal, String regionSucursal, Camion camiones) {
+    public Sucursal(String codigoSucursal, String regionSucursal) {
         this.codigoSucursal     = codigoSucursal;
         this.regionSucursal     = regionSucursal;
-        this.camiones           = new Camion[10][5];
     }
 
     public Sucursal() {
     }
+
+
+
+    // ===== CREAR SUCURSAL =====
+    public static void crearSucursal(){
+        Scanner lector = new Scanner(System.in);
+
+        System.out.println("        ---------- CREAR SUCURSAL ---------- ");
+        System.out.println("           Código sucursal  : ");
+        String codigoSucursal   = lector.nextLine();
+
+        System.out.println("            Región sucursal : ");
+        String regionSucursal   = lector.nextLine();
+
+        Sucursal nuevaSucursal  = new Sucursal(codigoSucursal, regionSucursal);
+    }
+
 
 
     // ===== AGREGAR CAMION =====
