@@ -11,3 +11,6 @@
 * Asociacion Unidireccional entre Flete y Pack ya que los fletes tiene entre 1 y 5 packs, pero packs no sabe de la existencia de la clase flete.
 * Asociacion Unidireccional entre Pack y Producto ya que los packs pueden tener entre 1 a 20 productos pero los productos no saben de la existencia de la clase Pack.
 
+## Segundo commit:
+
+![image](https://github.com/JesusTapiaMartin/taller03_fernandez_tapia_villarroel/assets/142508978/7c613c9c-300d-4f86-9dba-a6684dc5b287)
