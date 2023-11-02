@@ -2,22 +2,32 @@ import java.util.Scanner;
 
 public class Menu {
 
+    // ===== ATRIBUTOS =====
+    private static EmpresaTransportista instancia;
+
+
+    // ===== MAIN =====
     public static void main(String[] args) {
+        EmpresaTransportista.crearEmpresa();
         Menu();
     }
+
+
+    // ===== MENU =====
     public static void Menu(){
         Scanner lector = new Scanner(System.in);
         String opcion;
 
         do {
             System.out.println("========================================");
-            System.out.println("                 EMPRESA                ");
+            System.out.println("\t\t\t\t\t " + EmpresaTransportista.getInstancia().getNombreEmpresa() + " ");
             System.out.println("                 sucursal               ");
             System.out.println("========================================");
             System.out.println("        [1] Productos                   ");
             System.out.println("        [2] Flete                       ");
             System.out.println("        [3] Camión                      ");
-            System.out.println("        [4] Salir                       ");
+            System.out.println("        [4] Sucursal                    ");
+            System.out.println("        [5] Salir                       ");
             System.out.println("========================================");
             System.out.print("            Ingrese su opción  : ");
             opcion = lector.nextLine();
@@ -46,13 +56,17 @@ public class Menu {
                                 break;
 
                             case "3":
+                                System.out.println("        Volviendo al menú... ");
+                                break;
+
+                            case "4":
                                 break;
 
                             default:
                                 System.out.println("                Ingrese una opción válida... ");
                                 break;
                         }
-                    } while (!opcionProductos.equals("3"));
+                    } while (!opcionProductos.equals("5"));
                     break;
 
 
@@ -74,6 +88,7 @@ public class Menu {
                                 break;
 
                             case "2":
+                                System.out.println("        Volviendo al menú... ");
                                 break;
 
                             default:
@@ -104,6 +119,7 @@ public class Menu {
                                 break;
 
                             case "2":
+                                System.out.println("        Volviendo al menú... ");
                                 break;
 
                             default:
@@ -117,7 +133,12 @@ public class Menu {
 
 
                 case "4":
-                    System.out.println("        Hasta luego... ");
+                    break;
+
+
+
+                case "5":
+                    System.out.println("        Volviendo al menú... ");
                     break;
 
 
