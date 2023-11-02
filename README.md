@@ -14,3 +14,6 @@
 ## Segundo commit:
 
 ![image](https://github.com/JesusTapiaMartin/taller03_fernandez_tapia_villarroel/assets/142508978/7c613c9c-300d-4f86-9dba-a6684dc5b287)
+
+
+### Los commit creados en el readme fueron realizados por Yoandri Villarroel
