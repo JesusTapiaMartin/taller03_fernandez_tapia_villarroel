@@ -17,3 +17,5 @@
 
 
 ### Los commit creados en el readme fueron realizados por Yoandri Villarroel
+
+### Creamos una rama llamada Devs, donde los integrantes trabajamos juntos e ir en orden en hacer los commits para lograr trabajar el codigo juntos y no perder mucho tiempo en mover codigo a otras ramas.
