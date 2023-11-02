@@ -92,6 +92,7 @@ public class Menu {
 
                     do{
                         System.out.println("        ---------- CAMIÓN ----------   ");
+                        Camion.mostrarCamiones();
                         System.out.println("            (1) Crear Flete             ");
                         System.out.println("            (2) Salir                   ");
                         System.out.print  ("            Opción  : ");
@@ -99,6 +100,7 @@ public class Menu {
 
                         switch (opcionCamion){
                             case "1":
+                                Camion.agregarCamion();
                                 break;
 
                             case "2":
